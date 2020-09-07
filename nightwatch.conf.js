@@ -1,19 +1,21 @@
 module.exports = {
     "src_folders" : ["tests"],
   
-    "webdriver": {
-      "server_path": "node_modules/.bin/chromedriver",
-      "start_process": "true",
+    "webdriver" : {
+      "start_process": true,
+      "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+      "host": "localhost",
+      "port": 9515,
       "cli_args": [
         "--verbose"
       ],
-      "port": 9515
+      
     },
   
     "test_settings" : {
       "default" : {
-        "desiredCapabilities" : {
-          "browserName" : "chrome"
+        "desiredCapabilities": {
+          "browserName": "chrome"
         }
       }
     }
