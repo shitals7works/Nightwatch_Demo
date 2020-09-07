@@ -1,0 +1,17 @@
+{
+  "name": "intro_nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "demotest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^85.0.0",
+    "cucumber": "^6.0.5",
+    "nightwatch": "^1.4.1"
+  }
+}
