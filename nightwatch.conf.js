@@ -3,6 +3,7 @@ module.exports = {
   
     "webdriver": {
       "server_path": "node_modules/.bin/chromedriver",
+      "start_process": "true",
       "cli_args": [
         "--verbose"
       ],
