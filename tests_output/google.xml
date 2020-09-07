@@ -3,8 +3,8 @@
             failures="0"
             tests="0">
 
-  <testsuite name="firstTest"
-    errors="1" failures="0" hostname="" id="" package="firstTest" skipped="1"
+  <testsuite name="google"
+    errors="1" failures="0" hostname="" id="" package="google" skipped="1"
     tests="0" time="0.000" timestamp="">
   
 
@@ -36,7 +36,7 @@
   
     
     <testcase
-      name="My first test case" classname="firstTest">
+      name="Google advanced search: Elon Musk" classname="google">
       <skipped />
     </testcase>
     
