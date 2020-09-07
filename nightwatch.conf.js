@@ -7,7 +7,7 @@ module.exports = {
       "host": "localhost",
       "port": 9515,
       "cli_args": [
-        "--verbose"
+          '--port=9515'
       ],
       
     },

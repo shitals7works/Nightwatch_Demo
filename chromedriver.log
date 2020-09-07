@@ -76,11 +76,11 @@ ChromeDriver was started successfully.
 [1599471889.526][DEBUG]: DevTools HTTP Request: http://localhost:53987/json/version
 [1599471889.889][DEBUG]: DevTools HTTP Response: {
 
-   "Browser": "Chrome/85.0.0",
+   "Browser": "Chrome/63.0.3235.0",
 
    "Protocol-Version": "1.2",
 
-   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.0 Safari/537.36",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3235.0 Safari/537.36",
 
    "V8-Version": "6.3.270",
 
