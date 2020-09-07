@@ -2,14 +2,14 @@ Starting ChromeDriver 85.0.4183.38 (9047dbc2c693f044042bbec5c91401c708c7c26a-ref
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1599471549.774][INFO]: [7b2251eee90fff0fc34cdba43ffc9a37] COMMAND InitSession {
+[1599471604.286][INFO]: [ade177cf5c36455c76f79ed156b9f84d] COMMAND InitSession {
    "desiredCapabilities": {
       "browserName": "chrome",
       "name": "First Test",
       "platform": "ANY"
    }
 }
-[1599471549.776][INFO]: Populating Preferences file: {
+[1599471604.289][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -62,7 +62,7 @@ ChromeDriver was started successfully.
       "enabled": false
    }
 }
-[1599471549.777][INFO]: Populating Local State file: {
+[1599471604.289][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -72,18 +72,18 @@ ChromeDriver was started successfully.
       }
    }
 }
-[1599471549.778][INFO]: Launching chrome: "C:\Users\dell\AppData\Local\Chromium\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dell\AppData\Local\Temp\scoped_dir9076_1345705944" data:,
-[1599471550.012][DEBUG]: DevTools HTTP Request: http://localhost:53917/json/version
-[1599471550.879][DEBUG]: DevTools HTTP Response: {
+[1599471604.291][INFO]: Launching chrome: "C:\Users\dell\AppData\Local\Chromium\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dell\AppData\Local\Temp\scoped_dir11964_333182022" data:,
+[1599471604.701][DEBUG]: DevTools HTTP Request: http://localhost:53931/json/version
+[1599471605.021][DEBUG]: DevTools HTTP Response: {
    "Browser": "Chrome/63.0.3235.0",
    "Protocol-Version": "1.2",
    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3235.0 Safari/537.36",
    "V8-Version": "6.3.270",
    "WebKit-Version": "537.36 (@1e97cfac4e504d03e2b2ca36c8b1f31663abad4d)",
-   "webSocketDebuggerUrl": "ws://localhost:53917/devtools/browser/8a5e7729-ecdc-4fb3-bf6f-277a6f0b7ff8"
+   "webSocketDebuggerUrl": "ws://localhost:53931/devtools/browser/2296d8f6-bfbe-4d3f-be17-95abda11e266"
 }
 
-[1599471550.880][INFO]: Failed to connect to Chrome. Attempting to kill it.
-[1599471551.044][INFO]: [7b2251eee90fff0fc34cdba43ffc9a37] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 85
-[1599471551.045][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1599471551.045][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1599471605.021][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[1599471605.212][INFO]: [ade177cf5c36455c76f79ed156b9f84d] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 85
+[1599471605.212][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1599471605.212][DEBUG]: Log type 'browser' lost 0 entries on destruction
