@@ -5,7 +5,10 @@ module.exports = {
       "start_process": true,
       "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
       "host": "localhost",
-      "port": 9515
+      "port": 9515,
+      cli_args: [
+        '--port=9515'
+      ]
     },
   
     "test_settings" : {
