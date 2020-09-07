@@ -11,7 +11,9 @@ module.exports = {
       ],
       
     },
-  
+    "globals": {
+      "waitForConditionTimeout": "30 * 1000"
+  },
     "test_settings" : {
       "default" : {
         "desiredCapabilities": {
