@@ -13,9 +13,6 @@
         Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 85&#34;
        at endReadableNT (_stream_readable.js:1244:12)
        at processTicksAndRejections (internal/process/task_queues.js:80:21)
-  Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 85&#34;
-       at endReadableNT (_stream_readable.js:1244:12)
-       at processTicksAndRejections (internal/process/task_queues.js:80:21)
     </system-err>
   
 

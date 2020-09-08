@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "14.9"
+services:
+  - xvfb
+dist:
+  trusty
+addons:
+    chrome: stable
+before install:
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9515 http://localhost &
+script:
+  - xvfb-run npm test
+
