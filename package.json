@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "debug": "node --inspect-brk node_modules/.bin/nightwatch",
-    "test": "nightwatch"
+    "test": "nightwatch",
+    "test:browserstack": "nightwatch -c nightwatch.browserstack.conf.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "devDependencies": {
     "chromedriver": "^85.0.0",
     "cucumber": "^6.0.5",
+    "dotenv": "^8.2.0",
     "geckodriver": "^1.20.0",
     "nightwatch": "^1.4.1"
   }
