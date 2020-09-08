@@ -21,6 +21,7 @@
     "nightwatch-vrt": "^0.2.10"
   },
   "dependencies": {
+    "chromedriver": "85.0",
     "cucumber-pretty": "^6.0.0",
     "nightwatch-api": "^3.0.1"
   }
